@@ -1,28 +1,31 @@
 {
-    "data":[
-        {
-            "id": 1,
-            "name": "Tour organizer",
-            "description": "Organize your travel plan in easy steps, visit magnificent world attractions .",
-            "image":"assets/img/sun-umbrella-1.png"
-        },
-        {
-            "id": 2,
-            "name": "Tour organizer",
-            "description": "Organize your travel plan in easy steps, visit magnificent world attractions .",
-            "image":"assets/img/sun-umbrella-1.png"
-        }
-        ,    {
-            "id": 3,
-            "name": "Tour organizer",
-            "description": "Organize your travel plan in easy steps, visit magnificent world attractions .",
-            "image":"assets/img/sun-umbrella-1.png"
-        }
-        ,    {
-            "id": 4,
-            "name": "Tour organizer",
-            "description": "Organize your travel plan in easy steps, visit magnificent world attractions .",
-            "image":"assets/img/sun-umbrella-1.png"
+  "data": [
+    {
+      "id": 1,
+      "name": "Tour organizer",
+      "description": "Organize your travel plan in easy steps, visit magnificent world attractions .",
+      "image": "assets/img/sun-umbrella-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Book a flight",
+      "description": "Find the best deals for your next flight, high class flight and low cost ticket.",
+      "image": "assets/img/teyyare.png"
+    },
+    {
+      "id": 3,
+      "name": "Plan your trip",
+      "description": "Set your plan as a single traveler or in a group, our company will be there.",
+      "image": "assets/img/map.png"
+    },
+    {
+      "id": 4,
+      "name": "Cruise deals",
+      "description": "Be the captain of your own trip, get the best cruise deals from the system on our site .",
+      "image": "assets/img/gemi.png"
+    }
+  ]
+}ng"
         }
     ]
 }

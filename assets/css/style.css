@@ -74,7 +74,8 @@ nav img {
   width: 100%;
 }
 .section1 .s1-o {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
 }
@@ -139,4 +140,70 @@ nav img {
 }
 .section3 .s3-o .s3right {
   width: 50%;
+}
+.section3 .s3-o .s3right .s3text {
+  padding: 50px;
+}
+.section3 .s3-o .s3right .s3text p {
+  color: gray;
+}
+
+@media screen and (max-width: 960px) {
+  .section1 {
+    width: 100%;
+  }
+  .section1 .s1-o {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section2 {
+    width: 100%;
+  }
+  .section2 .s2-o {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section2 .s2-o .s2left {
+    width: 100%;
+  }
+  .section2 .s2-o .s2right {
+    width: 100%;
+  }
+  .section3 {
+    width: 100%;
+  }
+  .section3 .s3-o {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section3 .s3-o .s3left {
+    width: 100%;
+  }
+  .section3 .s3-o .s3right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section1 {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .section1 .s1-o {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .section1 .s1-o .s1card {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .section1 .s1-o .s1card .img {
+    width: 30px;
+    height: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
